@@ -7,7 +7,7 @@ export default defineConfig({
   base: "./",
   build: {
     outDir: "dist",
-    chunkSizeWarningLimit: 2000,
+    chunkSizeWarningLimit: 5000,
   },
   resolve: {
     alias: {
