@@ -18,17 +18,4 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
-```
 
-The key change is `"include": ["src/**/*"]` — this finds ALL files inside src no matter the folder structure.
-
----
-
-## Also in Vercel Settings Change Build Command To:
-```
-npx tsc --noEmit --skipLibCheck && npx vite build
-```
-
-Or simply just:
-```
-npx vite build
